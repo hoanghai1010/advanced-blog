@@ -352,5 +352,136 @@
       height: auto;
     }
   }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 80px;
+  }
+  
+  .decorative-line {
+    aspect-ratio: 45.45;
+    object-fit: contain;
+    object-position: center;
+    width: 1061px;
+    align-self: end;
+    max-width: 1061px;
+  }
+  
+  .about-background {
+    background-color: #f4f0f8;
+    width: 100%;
+    padding: 96px 80px;
+  }
+  
+  .about-container {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .about-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    line-height: normal;
+    width: 50%;
+  }
+  
+  .about-column:last-child {
+    margin-left: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: "Inter";
+    font-size: 16px;
+    color: #232536;
+    font-weight: 700;
+  }
+  
+  .section-label {
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    align-self: start;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .section-title {
+    font-family: "Sen";
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin: 24px 0 0 0;
+  }
+  
+  .about-column:last-child .section-title {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  
+  .section-description {
+    color: #6d6e76;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 16px 22px 0 0;
+  }
+  
+  .about-column:last-child .section-description {
+    margin-right: 0;
+  }
+  
+  .read-more {
+    color: #592ea9;
+    font-family: "Sen";
+    font-size: 18px;
+    line-height: 32px;
+    align-self: start;
+    margin-top: 29px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 991px) {
+    .decorative-line {
+      max-width: 100%;
+    }
+  
+    .about-background {
+      max-width: 100%;
+      padding: 96px 20px;
+    }
+  
+    .about-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .about-column {
+      width: 100%;
+      margin-left: 0 !important;
+    }
+  
+    .about-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .section-title {
+      max-width: 100%;
+    }
+  
+    .section-description {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+  }
   
 

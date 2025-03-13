@@ -8,24 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-  <header class="header">
-    <div class="header-container">
-      <a href="#" class="logo">
-        <img src="assets/images/logo-1.png" alt="Finsweet Logo">
+  <header class="bg-dark h-80 w-full">
+    <div class="container h-full px-80 flex items-center justify-between md-px-40 sm-px-20">
+      <a href="#" class="block">
+        <img src="/assets/images/logo-1.png" alt="Finsweet Logo" class="w-140 h-29">
       </a>
-
-      <div class="nav-content">
-        <nav class="nav-links">
-          <a href="#" class="nav-link">Home</a>
-          <a href="#" class="nav-link">Blog</a>
-          <a href="#" class="nav-link">About Us</a>
-          <a href="#" class="nav-link">Contact us</a>
+      <div class="flex items-center gap-32 sm-hidden">
+        <nav class="flex gap-24">
+          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Home</a>
+          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Blog</a>
+          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">About Us</a>
+          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Contact us</a>
         </nav>
-        <button class="subscribe-button">Subscribe</button>
+        <button class="bg-white px-48 py-16 font-sen text-18 font-bold text-dark hover-yellow transition">
+          Subscribe
+        </button>
       </div>
-
-      <button class="mobile-menu-button">
-        <svg xmlns="http://www.w3.org/2000/svg" class="menu-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <button class="hidden sm-block">
+        <svg class="w-24 h-24 text-white" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
           <path d="M4 6l16 0"></path>
           <path d="M4 12l16 0"></path>
@@ -35,87 +35,7 @@
     </div>
   </header>
 
-  <section class="hero">
-    <img src="assets/images/man.png" alt="" class="hero-image">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <div class="hero-category">
-        <span>Posted on</span>
-        <span>startup</span>
-      </div>
-      <h1 class="hero-title">Step-by-step guide to choosing great font pairs</h1>
-      <div class="hero-meta">
-        <span>By</span>
-        <span class="author">James West</span>
-        <span>| May 23, 2022</span>
-      </div>
-      <p class="hero-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-      <a href="#" class="hero-button">
-        <span class="hero-button-text">Read More &gt;</span>
-      </a>
-    </div>
-  </section>
+  
+  
 
-  <section class="posts-section">
-    <div class="posts-container">
-      <div class="featured-post">
-        <div class="featured-post-content">
-          <h2 class="featured-post-title">Featured Post</h2>
-          <div class="featured-post-card">
-            <img src="assets/images/white-concrete-building.png" alt="" class="featured-post-image">
-            <div class="featured-post-meta">
-              <span class="meta-by">By</span>
-              <span class="meta-author">John Doe</span>
-              <span class="meta-date">| May 23, 2022</span>
-            </div>
-            <h3 class="featured-post-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
-            <p class="featured-post-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            <a href="#" class="featured-post-button">Read More &gt;</a>
-          </div>
-        </div>
-      </div>
-      <div class="all-posts">
-        <div class="all-posts-header">
-          <h2 class="all-posts-title">All Posts</h2>
-          <a href="#" class="all-posts-view-all">View All</a>
-        </div>
-        <div class="all-posts-list">
-          <div class="all-post-item">
-            <div class="all-post-meta">
-              <span class="meta-by">By</span>
-              <span class="meta-author">John Deo</span>
-              <span class="meta-date">| Aug 23, 2021</span>
-            </div>
-            <h3 class="all-post-subtitle">8 Figma design systems that you can download for free today.</h3>
-          </div>
-          <div class="all-post-item light-yellow">
-            <div class="all-post-meta">
-              <span class="meta-by">By</span>
-              <span class="meta-author">John Doe</span>
-              <span class="meta-date">| Aug 23, 2021</span>
-            </div>
-            <h3 class="all-post-subtitle">8 Figma design systems that you can download for free today.</h3>
-          </div>
-          <div class="all-post-item">
-            <div class="all-post-meta">
-              <span class="meta-by">By</span>
-              <span class="meta-author">John Doe</span>
-              <span class="meta-date">| Aug 23, 2021</span>
-            </div>
-            <h3 class="all-post-subtitle">8 Figma design systems that you can download for free today.</h3>
-          </div>
-          <div class="all-post-item">
-            <div class="all-post-meta">
-              <span class="meta-by">By</span>
-              <span class="meta-author">John Doe</span>
-              <span class="meta-date">| Aug 23, 2021</span>
-            </div>
-            <h3 class="all-post-subtitle">8 Figma design systems that you can download for free today.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    
+  

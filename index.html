@@ -6,127 +6,33 @@
     <title>Advanced Blog</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!--Header-->
-  <header class="bg-dark h-80 w-full">
-    <div class="container h-full px-80 flex items-center justify-between md-px-40 sm-px-20">
-      <a href="#" class="block">
-        <img src="/assets/images/logo-1.png" alt="Finsweet Logo" class="w-140 h-29">
-      </a>
-      <div class="flex items-center gap-32 sm-hidden">
-        <nav class="flex gap-24">
-          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Home</a>
-          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Blog</a>
-          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">About Us</a>
-          <a href="#" class="text-white no-underline font-inter text-16 hover-opacity transition">Contact us</a>
+  <!-- Header -->
+  <header class="w-full min-h-20 bg-white">
+    <div class="w-full h-20 bg-black flex items-center justify-between px-20">
+      <!-- Logo -->
+      <img src="assets/images/logo-1.png" alt="Logo" class="w-140 h-28">
+      <!-- Navigation -->
+      <div class="flex items-center gap-8">
+        <!-- Desktop Navigation Links -->
+        <nav class="flex items-center gap-6">
+          <a href="#" class="text-white font-inter text-base font-normal leading-7 cursor-pointer no-underline">Home</a>
+          <a href="#" class="text-white font-inter text-base font-normal leading-7 cursor-pointer no-underline">Blog</a>
+          <a href="#" class="text-white font-inter text-base font-normal leading-7 cursor-pointer no-underline">About Us</a>
+          <a href="#" class="text-white font-inter text-base font-normal leading-7 cursor-pointer no-underline">Contact us</a>
         </nav>
-        <button class="bg-white px-48 py-16 font-sen text-18 font-bold text-dark hover-yellow transition">
-          Subscribe
-        </button>
+        <!-- Subscribe Button -->
+        <button class="text-black font-sen text-lg font-bold leading-6 py-4 px-12 bg-white cursor-pointer hover:bg-dark-yellow">Subscribe</button>
+        <!-- Mobile Menu Button -->
+        <div class="hidden">
+          <button class="bg-none border-none cursor-pointer p-0">
+            <img src="menu-icon.png" alt="Menu" class="w-6 h-6 text-white">
+          </button>
+        </div>
       </div>
-     <button class="hidden sm-block">
-        <svg class="w-24 h-24 text-white" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M4 6l16 0"></path>
-          <path d="M4 12l16 0"></path>
-          <path d="M4 18l16 0"></path>
-        </svg>
-      </button>
     </div>
   </header>
-
-<!--Hero-->
-  <section class="relative w-full h-720 md-h-600 sm-h-500">
-    <img src="assets/images/man.png" alt="Hero Image" class="w-full h-full object-cover">
-    <div class="absolute inset-0 bg-overlay"></div>
-    <div class="absolute left-80 top-128 max-w-804 md-left-40 md-w-80 sm-left-20 sm-w-90 sm-top-80">
-        <div class="text-white font-inter text-16 tracking-3 uppercase mb-24">
-            <span>Posted on </span>
-            <span>startup</span>
-        </div>
-        <h1 class="text-white font-sen text-56 font-bold lh-64 tracking-n2 mb-24 md-text-44 md-lh-52 sm-text-32 sm-lh-40">
-            Step-by-step guide to choosing great font pairs
-        </h1>
-        <div class="text-white font-inter text-16 lh-28 mb-16">
-            <span>By </span>
-            <span class="text-yellow">James West</span>
-            <span>| May 23, 2022</span>
-        </div>
-        <p class="text-white font-inter text-16 lh-28 max-w-599 mb-48 md-w-full sm-mb-32">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-        </p>
-        <a href="#" class="inline-flex no-underline items-center px-48 py-16 bg-yellow hover-bg-yellow-dark transition">
-            <span class="text-dark font-sen text-18 font-bold">Read More ></span>
-        </a>
-    </div>
-  </section>
-
-  <!-- Posts Section -->
-  <section class="py-128">
-    <div class="container px-80 md-px-40 sm-px-20">
-        <div class="flex gap-32 md-flex-col">
-      <!-- Featured Post -->
-      <div class="w-[49%] md-w-full">
-        <h2 class="font-sen text-36 font-bold text-dark mb-32">Featured Post</h2>
-        <div class="featured-card">
-            <img src="assets/images/white-concrete-building.png" alt="Featured Post" class="w-full h-352 object-cover mb-32">
-            <div class="text-gray font-inter text-16 mb-16">
-                <span>By </span>
-                <span class="text-purple">John Doe</span>
-                <span>| May 23, 2022</span>
-            </div>
-            <h3 class="font-sen text-28 font-bold text-dark mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
-            <p class="font-inter text-16 text-medium-gray mb-32">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-            <a href="#" class="text-dark bg-yellow px-48 py-16 inline-block no-underline font-sen text-16 font-bold hover-bg-yellow-dark transition">Read More ></a>
-        </div>
-    </div>
-      <!-- All Posts -->
-      <div class="w-[49%] md-w-full">
-        <div class="flex justify-between items-center mb-32">
-            <h2 class="font-sen text-36 font-bold text-dark">All Posts</h2>
-            <a href="#" class="text-purple font-inter no-underline text-16 hover-opacity transition">View All</a>
-        </div>
-        <div class="flex flex-col gap-24">
-            <div class="p-32 hover-bg-light transition">
-                <div class="text-gray font-inter text-16 mb-16">
-                    <span>By </span>
-                    <span class="text-purple">John Deo</span>
-                    <span>| Aug 23, 2021</span>
-                </div>
-                <h3 class="font-sen text-24 font-bold text-dark">8 Figma design systems that you can download for free today.</h3>
-            </div>
-            <div class="p-32 bg-light-yellow hover-bg-light transition">
-                <div class="text-gray font-inter text-16 mb-16">
-                    <span>By </span>
-                    <span class="text-purple">John Doe</span>
-                    <span>| Aug 23, 2021</span>
-                </div>
-                <h3 class="font-sen text-24 font-bold text-dark">8 Figma design systems that you can download for free today.</h3>
-            </div>
-            <div class="p-32 hover-bg-light transition">
-                <div class="text-gray font-inter text-16 mb-16">
-                    <span>By </span>
-                    <span class="text-purple">John Doe</span>
-                    <span>| Aug 23, 2021</span>
-                </div>
-                <h3 class="font-sen text-24 font-bold text-dark">8 Figma design systems that you can download for free today.</h3>
-            </div>
-            <div class="p-32 hover-bg-light transition">
-                <div class="text-gray font-inter text-16 mb-16">
-                    <span>By </span>
-                    <span class="text-purple">John Doe</span>
-                    <span>| Aug 23, 2021</span>
-                </div>
-                <h3 class="font-sen text-24 font-bold text-dark">8 Figma design systems that you can download for free today.</h3>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-
-  
   
 
-  

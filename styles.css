@@ -392,6 +392,10 @@ button {
   background-color: var(--color-black);
 }
 
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
 .bg-light-yellow {
   background-color: var(--color-light-yellow);
 }
@@ -527,6 +531,41 @@ a:hover .article-item {
   display: block;
   top: -24px;
   right: 282px;
+  background-color: var(--color-yellow);
+}
+
+.icon {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+}
+
+.icon img {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-primary {
+  background-color: var(--color-light-yellow);
+  border-radius: 8px;
+}
+
+.icon-2x {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+}
+
+.icon-2x img {
+  width: 24px;
+  height: 24px;
+}
+
+.category-item:hover {
   background-color: var(--color-yellow);
 }
 

@@ -309,12 +309,25 @@ button {
   width: 66.666667%;
 }
 
+.w-949{
+  width: 949px;
+}
+
+.w-546 {
+  width: 546px;
+}
+
+
 .h-full {
   height: 100%;
 }
 
 .h-720 {
   height: 720px;
+}
+
+.h-705 {
+  height: 705px;
 }
 
 .gap-1 {
@@ -353,6 +366,10 @@ button {
   padding: 32px;
 }
 
+.p-80 {
+  padding: 80px;
+}
+
 .py-12 {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -363,20 +380,24 @@ button {
   padding-right: 80px;
 }
 
-.t-0 {
+.top-0 {
   top: 0;
 }
 
-.l-0 {
+.left-0 {
   left: 0;
 }
 
-.r-0 {
+.right-0 {
   right: 0;
 }
 
-.b-0 {
+.bottom-0 {
   bottom: 0;
+}
+
+.left-574 {
+  left: 574px;
 }
 
 .absolute {
@@ -390,6 +411,10 @@ button {
 /* Colors */
 .bg-black {
   background-color: var(--color-black);
+}
+
+.bg-white {
+  background-color: var(--color-white);
 }
 
 .bg-yellow {
@@ -568,16 +593,3 @@ a:hover .article-item {
 .category-item:hover {
   background-color: var(--color-yellow);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

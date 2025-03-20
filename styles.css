@@ -386,12 +386,36 @@ button {
   background-color: var(--color-black);
 }
 
+.bg-light-yellow {
+  background-color: var(--color-light-yellow);
+}
+
 .text-white {
   color: var(--color-white);
 }
 
 .text-yellow {
   color: var(--color-yellow);
+}
+
+.text-medium-grey {
+  color: var(--color-medium-grey);
+}
+
+.text-dark-grey {
+  color: var(--color-dark-grey);
+}
+
+.text-purple {
+  color: var(--color-purple);
+}
+
+.border {
+  border: 1px solid;
+}
+
+.border-medium-grey\/10 {
+  border-color: rgba(109, 110, 118, 0.1);
 }
 
 /* Effects */
@@ -456,6 +480,14 @@ button {
 
 .btn-fluid {
   width: 100%;
+}
+
+a:hover .article-item {
+  background-color: var(--color-light-yellow);
+}
+
+.article-item {
+  padding-bottom: 24px;
 }
 
 

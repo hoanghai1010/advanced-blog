@@ -8,6 +8,7 @@
   --color-medium-grey: #6D6E76;
   --color-light-grey: #F4F4F4;
   --color-purple: #592EA9;
+  --color-light-purple: #F4F0F8;
   --font-inter: "Inter", sans-serif;
   --font-sen: "Sen", sans-serif;
 
@@ -357,6 +358,11 @@ button {
   padding-bottom: 12px;
 }
 
+.px-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .t-0 {
   top: 0;
 }
@@ -388,6 +394,10 @@ button {
 
 .bg-light-yellow {
   background-color: var(--color-light-yellow);
+}
+
+.bg-light-purple {
+  background-color: var(--color-purple);
 }
 
 .text-white {
@@ -488,6 +498,36 @@ a:hover .article-item {
 
 .article-item {
   padding-bottom: 24px;
+}
+
+.introduce {
+  padding: 96px;
+  padding-bottom: 80px;
+  background-color: var(--color-light-purple);
+  border-top: 24px solid var(--color-white);
+  position: relative;
+}
+
+.introduce::before {
+  content: "";
+  position: absolute;
+  width: 282px;
+  height: 24px;
+  display: block;
+  top: -24px;
+  right: 0;
+  background-color: var(--color-purple);
+}
+
+.introduce::after {
+  content: "";
+  position: absolute;
+  width: 843px;
+  height: 24px;
+  display: block;
+  top: -24px;
+  right: 282px;
+  background-color: var(--color-yellow);
 }
 
 

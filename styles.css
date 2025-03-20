@@ -43,7 +43,7 @@
   --font-size-body2: 14px;
   --font-size-label: 14px;
 
-  --font-size-button: 18px;
+  --font-size-btn: 18px;
   --font-size-input: 16px;
 
   --gap-8: 8px;
@@ -119,8 +119,7 @@ img {
 }
 
 button {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-button);
+  font-family: var(--font-secondary);
   cursor: pointer;
   border: none;
 }
@@ -179,6 +178,10 @@ button {
 
 .items-center {
   align-items: center;
+}
+
+.object-cover {
+  object-fit: cover;
 }
 
 /* Typography */
@@ -387,12 +390,32 @@ button {
   color: var(--color-white);
 }
 
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+/* Effects */
+.bg-overlay {
+  position: absolute;
+}
+
+.bg-overlay::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* Components */
 .section {
   padding: 64px 0;
 }
 
-.btn-1, .btn-2 {
+.btn {
   height: var(--control-size);
   display: inline-flex;
   justify-content: center;
@@ -400,17 +423,14 @@ button {
   gap: 4px;
   padding: 0 48px;
   font-family: var(--font-secondary);
-  font-size: var(--font-size-button);
+  font-size: var(--font-size-btn);
   font-weight: 700;
   color: var(--text-color);
-}
-
-.btn-2 {
   position: relative;
   background-color: var(--bg-primary);
 }
 
-.btn-2::before {
+.btn::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -420,18 +440,22 @@ button {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.btn-2:hover::before {
+.btn:hover::before {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.btn-2-primary {
+.btn-primary {
   background-color: var(--color-primary);
   color: var(--color-black);
 }
 
-.btn-2-secondary {
+.btn-secondary {
   background-color: var(--color-secondary);
-  color: var(--text-white);
+  color: var(--color-white);
+}
+
+.btn-fluid {
+  width: 100%;
 }
 
 

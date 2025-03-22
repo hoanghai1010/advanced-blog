@@ -260,6 +260,7 @@ button {
   font-family: var(--font-primary);
   font-size: var(--font-size-body2);
   line-height: var(--leading-body2);
+  font-weight: 600;
 }
 
 .text-label {
@@ -350,6 +351,10 @@ button {
   width: 153px;
 }
 
+.w-48 {
+  width: 48px;
+}
+
 
 .h-full {
   height: 100%;
@@ -357,6 +362,10 @@ button {
 
 .h-16 {
   height: 16px;
+}
+
+.h-48 {
+  height: 48px;
 }
 
 .h-720 {
@@ -519,8 +528,6 @@ button {
   color: var(--color-black);
 }
 
-
-
 .text-yellow {
   color: var(--color-yellow);
 }
@@ -543,6 +550,11 @@ button {
 
 .border-medium-grey\/10 {
   border-color: rgba(109, 110, 118, 0.1);
+}
+
+.border-l {
+  border-left-width: 1px;
+  border-left-style: solid;
 }
 
 /* Effects */
@@ -699,3 +711,4 @@ a:hover .article-item {
   align-items: center;
   gap: 75px;
 }
+

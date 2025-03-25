@@ -157,6 +157,10 @@ button {
   display: flex;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -179,6 +183,10 @@ button {
 
 .items-center {
   align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .object-cover {
@@ -254,6 +262,7 @@ button {
   font-family: var(--font-primary);
   font-size: var(--font-size-body1);
   line-height: var(--leading-body1);
+  font-weight: 600;
 }
 
 .text-body-2 {
@@ -319,6 +328,14 @@ button {
   width: 66.666667%;
 }
 
+.w-0_5 {
+  width: 0.5px;
+}
+
+.w-48 {
+  width: 48px;
+}
+
 .w-16 {
   width: 16px;
 }
@@ -355,9 +372,20 @@ button {
   width: 48px;
 }
 
+.w-62 {
+  width: 62px;
+}
 
 .h-full {
   height: 100%;
+}
+
+.h-48 {
+  height: 48px;
+}
+
+.h-62 {
+  height: 62px;
 }
 
 .h-16 {
@@ -404,6 +432,10 @@ button {
   gap: 4px;
 }
 
+.gap-20 {
+  gap: 20px;
+}
+
 .gap-86 {
   gap: 86px;
 }
@@ -420,16 +452,36 @@ button {
   margin-bottom: 4px;
 }
 
+.mb-120 {
+  margin-bottom: 120px;
+}
+
 .mt-32 {
   margin-top: 32px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-112 {
+  margin-left: 112px;
 }
 
 .-translate-y-6 {
   transform: translateY(-24px);
 }
 
+.opacity-40 {
+  opacity: 0.4;
+}
+
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-32 {
@@ -452,9 +504,13 @@ button {
   padding: 40px;
 }
 
-
 .p-80 {
   padding: 80px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .py-12 {
@@ -465,6 +521,10 @@ button {
 .px-80 {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.pl-96 {
+  padding-left: 96px;
 }
 
 .top-0 {
@@ -515,6 +575,11 @@ button {
 .bg-light-purple {
   background-color: var(--color-purple);
 }
+
+.bg-medium-grey {
+  background-color: var(--color-medium-grey);
+}
+
 
 .bg-light-grey {
   background-color: var(--color-light-grey);
@@ -710,5 +775,13 @@ a:hover .article-item {
   display: flex;
   align-items: center;
   gap: 75px;
+}
+
+.left-narrow:hover {
+  background-color: var(--color-black);
+}
+
+.left-narrow:hover i {
+  color: var(--color-white);
 }
 

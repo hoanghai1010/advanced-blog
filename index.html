@@ -10,7 +10,7 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="bg-black py-12">
+  <header class="bg-black py-12 fade-in">
     <div class="container flex justify-between items-center">
       <div>
         <a href="#" class="logo">
@@ -30,7 +30,7 @@
   </header>
 
   <!-- Hero Section -->
-  <div class="relative h-720 flex items-center mb-64">
+  <div class="relative h-720 flex items-center mb-64 fade-in">
     <div class="absolute left-0 top-0 w-full h-full bg-overlay">
       <img src="assets/images/man.png" alt="" class="w-full h-full object-cover relative">
     </div>
@@ -52,7 +52,7 @@
   </div>
 
   <!-- Blog Section -->
-   <div class="container flex gap-1">
+   <div class="container flex gap-1 fade-in">
     <section class="section w-2/3">
       <h2 class="text-h2 mb-32">Featured Post</h2>
       <article class="border border-medium-grey/10 p-32 flex flex-col gap-1">
@@ -76,7 +76,7 @@
       </article>
     </section>
 
-    <section class="w-1/3 section">
+    <section class="w-1/3 section fade-in">
       <h2 class="text-h2 flex items-center justify-between mb-32">All Posts 
         <a href="" class="text-purple text-body-1 text-regular">View All</a>
       </h2>
@@ -126,7 +126,7 @@
    </div>
 
   <!--About Us Section-->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container">
       <div class="introduce px-80">
         <div class="grid grid-cols-2">
@@ -156,7 +156,7 @@
   </div>
 
   <!-- Choose A Catagory -->
-    <div class="container">
+    <div class="container fade-in">
       <section class="section flex flex-col gap-3">
         <h2 class="text-h2 text-center mb-32">Choose A Category</h2>
         <div class="grid grid-cols-4">
@@ -209,7 +209,7 @@
     </div>
 
   <!-- Special Post -->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container relative">
       <div class="flex">
         <div class="w-949">
@@ -232,11 +232,11 @@
   </div>
 
   <!-- List of Authors -->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container">
         <h2 class="text-h2 text-center mb-48">List of Authors</h2>
         <div class="grid grid-cols-4 gap-1">
-          <div class="bg-light-grey p-40 flex flex-col items-center">
+          <div class="bg-light-grey p-40 flex flex-col items-center author-item">
             <div class="w-128 h-128 rounded-full overflow-hidden mb-20">
               <img src="assets/images/avatar-1.png" alt="Floyd Miles" class="w-full h-full object-cover">
             </div>
@@ -249,7 +249,7 @@
               <a href="#"><img src="assets/images/linkedln.png" alt="" class="w-16 h-16"></a>
             </div>
           </div>
-          <div class="bg-light-yellow p-40 flex flex-col items-center">
+          <div class="bg-light-yellow p-40 flex flex-col items-center author-item">
             <div class="w-128 h-128 rounded-full overflow-hidden mb-20">
               <img src="assets/images/avatar-2.png" alt="Dianne Russell" class="w-full h-full object-cover">
             </div>
@@ -262,7 +262,7 @@
               <a href="#" class="text-black"><img src="assets/images/linkedln.png" alt="" class="w-16 h-16"></a>
             </div>
           </div>
-          <div class="bg-light-grey p-40 flex flex-col items-center">
+          <div class="bg-light-grey p-40 flex flex-col items-center author-item">
             <div class="w-128 h-128 rounded-full overflow-hidden mb-20">
               <img src="assets/images/avatar-3.png" alt="Jenny Wilson" class="w-full h-full object-cover">
             </div>
@@ -275,7 +275,7 @@
               <a href="#" class="text-black"><img src="assets/images/linkedln.png" alt="" class="w-16 h-16"></a>
             </div>
           </div>
-          <div class="bg-light-grey p-40 flex flex-col items-center">
+          <div class="bg-light-grey p-40 flex flex-col items-center author-item">
             <div class="w-128 h-128 rounded-full overflow-hidden mb-20">
               <img src="assets/images/avatar-4.png" alt="Leslie Alexander" class="w-full h-full object-cover">
             </div>
@@ -294,26 +294,27 @@
   </div>
 
   <!-- Featured in Section -->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container">
       <div class="flex items-center gap-86">
         <div class="flex flex-col gap-base -translate-y-6">
           <p class="text-medium-grey text-body-2 opacity-60">We are</p>
           <p class="text-h3 text-medium-grey">Featured in</p>
         </div>
-        <div class="flex items-center gap-75">
+        <div class="flex items-center gap-75 logo-container">
           <img src="assets/images/logo-2.png" alt="Logo 1" class="w-160 h-32">
           <img src="assets/images/logo-3.png" alt="Logo 2" class="w-136 h-32">
           <img src="assets/images/logo-4.png" alt="Logo 3" class="w-135 h-32">
           <img src="assets/images/logo-5.png" alt="Logo 4" class="w-153 h-32">
           <img src="assets/images/logo-6.png" alt="Logo 5" class="w-136 h-32">
         </div>
+        </div>
       </div>
     </div>
   </div>
 
   <!--Testimonials-->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container bg-light-yellow py-80">
       <div class="flex flex-row items-start gap-2">
         <div class="w-1/3 ml-112">
@@ -358,7 +359,7 @@
   </div>
 
  <!--Join Our Team-->
-  <div class="section">
+  <div class="section fade-in">
     <div class="container flex flex-col items-center justify-center min-h-screen bg-white px-24">
         <div class="flex flex-col items-center max-w-414 text-center">
             <h2 class="text-h2 mb-16">Join our team to be a part<br> of our story</h2>
@@ -370,7 +371,7 @@
 </div>
 
  <!-- Footer -->
-  <footer class="section">
+  <footer class="section fade-in">
     <div class="bg-black py-12">
       <div class="container">
         <div class="flex justify-between items-center">

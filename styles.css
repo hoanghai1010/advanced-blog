@@ -764,8 +764,21 @@ a:hover .article-item {
   height: 24px;
 }
 
+.category-item {
+  transition: transform 0.3s ease;
+}
+
 .category-item:hover {
   background-color: var(--color-yellow);
+  transform: scale(1.1);
+}
+
+.author-item {
+  transition: transform 0.3s ease;
+}
+
+.author-item:hover {
+  transform: scale(1.1);
 }
 
 .featured-wrapper {
@@ -813,5 +826,16 @@ a:hover .article-item {
   gap: 64px;
   padding: 80px 64px;
   margin: 48px 0px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95); 
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 

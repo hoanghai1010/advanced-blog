@@ -384,20 +384,12 @@ button {
   width: 153px;
 }
 
-.w-48 {
-  width: 48px;
-}
-
 .w-62 {
   width: 62px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-48 {
-  height: 48px;
 }
 
 .h-62 {
@@ -484,6 +476,10 @@ button {
   margin-top: 32px;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -521,6 +517,11 @@ button {
 }
 
 .mb-64 {
+  margin-bottom: 64px;
+}
+
+.my-64 {
+  margin-top: 64px;
   margin-bottom: 64px;
 }
 

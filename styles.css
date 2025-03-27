@@ -436,6 +436,10 @@ button {
   gap: var(--gap-8);
 }
 
+.gap-5 {
+  gap: 2px;
+}
+
 .gap-base {
   gap: 4px;
 }
@@ -454,6 +458,10 @@ button {
 
 .gap-64 {
   gap: 64px;
+}
+
+.gap-48 {
+  gap: 48px;
 }
 
 .gap-75 {

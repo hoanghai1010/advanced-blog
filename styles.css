@@ -317,6 +317,10 @@ button {
   width: 100%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -441,6 +445,10 @@ button {
   gap: 86px;
 }
 
+.gap-141 {
+  gap: 141px;
+}
+
 .gap-75 {
   gap: 75px;
 }
@@ -514,6 +522,11 @@ button {
   padding-bottom: 80px;
 }
 
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .py-12 {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -576,6 +589,11 @@ button {
 .bg-light-purple {
   background-color: var(--color-purple);
 }
+
+.bg-light-purple {
+  background-color: var(--color-light-purple);
+}
+
 
 .bg-dark-grey {
   background-color: var(--color-dark-grey);

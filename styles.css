@@ -276,6 +276,8 @@ button {
 .text-label {
   font-size: var(--font-size-label);
   line-height: var(--leading-label);
+  font-weight: 500;
+  font-family: var(--font-primary);
 }
 
 .text-subheading-1 {
@@ -416,6 +418,10 @@ button {
   height: 705px;
 }
 
+.h-318 {
+  height: 318px;
+}
+
 .h-32 {
   height: 32px;
 }
@@ -486,6 +492,10 @@ button {
 
 .mt-8 {
   margin-top: 8px;
+}
+
+.mt-112 {
+  margin-top: 112px;
 }
 
 .ml-auto {

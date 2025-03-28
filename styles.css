@@ -76,7 +76,6 @@ p {
   line-height: var(--leading-body1);
 }
 
-
 h1 {
   font-size: var(--font-size-h1);
   line-height: var(--leading-h1);
@@ -127,7 +126,6 @@ button {
 }
 
 /* Layout */
-
 .container {
   width: 100%;
   max-width: 1328px;
@@ -202,6 +200,13 @@ button {
   border-radius: 9999px;
 }
 
+.hidden {
+  display: none;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
 
 /* Typography */
 .text-display {
@@ -494,12 +499,24 @@ button {
   margin-top: 8px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
 .mt-112 {
   margin-top: 112px;
 }
 
 .ml-auto {
   margin-left: auto;
+}
+
+.ml-108 {
+  margin-left: 108px;
 }
 
 .ml-112 {
@@ -530,6 +547,10 @@ button {
   margin-top: 32px;
 }
 
+.mt-265 {
+  margin-top: 265px;
+}
+
 .mb-48 {
   margin-bottom: 48px;
 }
@@ -553,6 +574,14 @@ button {
 
 .p-80 {
   padding: 80px;
+}
+
+.p-64 {
+  padding: 64px;
+}
+
+.pt-128 {
+  padding-top: 128px;
 }
 
 .py-80 {
@@ -580,9 +609,19 @@ button {
   padding-bottom: 12px;
 }
 
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .px-80 {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.px-108 {
+  padding-left: 108px;
+  padding-right: 108px;
 }
 
 .pr-132 {
@@ -591,6 +630,10 @@ button {
 
 .pl-96 {
   padding-left: 96px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .top-0 {
@@ -609,6 +652,10 @@ button {
   bottom: 0;
 }
 
+.-\bottom-64 {
+  bottom: -64px;
+}
+
 .left-574 {
   left: 574px;
 }
@@ -619,6 +666,10 @@ button {
 
 .relative {
   position: relative;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 /* Colors */
@@ -803,6 +854,23 @@ a:hover .article-item {
   background-color: var(--color-yellow);
 }
 
+.introduce-2 {
+  border-top: 24px solid var(--color-secondary);
+  position: relative;
+  width: 311px;
+}
+.introduce-2::before {
+  content: "";
+  position: absolute;
+  width: 550px;
+  height: 24px;
+  left: 312px;
+  display: block;
+  top: -24px;
+  right: 0;
+  background-color: var(--color-primary);
+}
+
 .icon {
   box-sizing: border-box;
   display: inline-flex;
@@ -940,5 +1008,15 @@ a:hover .article-item {
   letter-spacing: -1px;
   transition: all 0.3s ease-in-out;
 }
+
+.bg-image {
+  background-image: url(assets/images/together-2.png);
+  background-size: cover;
+  height: 444px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+
 
 

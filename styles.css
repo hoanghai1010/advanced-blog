@@ -625,6 +625,11 @@ button {
   padding-bottom: 80px;
 }
 
+.py-128 {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
 .py-32 {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -1076,6 +1081,22 @@ a:hover .article-item {
   font-weight: 700;
   background-color: var(--bg-primary);
   color: var(--color-medium-grey);
+}
+
+.introduce-3 {
+  border-top: 24px solid var(--color-primary);
+  position: relative;
+  width: 75%;
+}
+
+.introduce-3::after {
+  content: "";
+  position: absolute;
+  height: 24px;
+  left: 100%;
+  top: -24px;
+  width: 25%;
+  background-color: var(--color-secondary);
 }
 
 
